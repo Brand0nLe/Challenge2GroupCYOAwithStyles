@@ -1,6 +1,7 @@
 .StoryText {
     text-align: center;
     font-size: x-large;
+    border: thick dashed black;
 }
 
 .card-title {
@@ -22,6 +23,8 @@
     justify-content: center;
 }
 
-
-
+.Header {
+    display: flex;
+    justify-content: center;
+}
 
