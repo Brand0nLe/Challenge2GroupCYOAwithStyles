@@ -1,0 +1,19 @@
+.StoryText {
+    text-align: center;
+    font-size: x-large;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.SelectBtn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
