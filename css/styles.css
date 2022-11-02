@@ -37,6 +37,7 @@
     display: flex;
     justify-content: center;
     color: white;
+    font-weight: bold;
     text-shadow: 2px 2px 5px black;
 }
 
