@@ -7,20 +7,33 @@
   <title>Bootstrap demo</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
-  <a href="../index.html">Return</a>
+  <nav class="navbar bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">Home</a>
+    </div>
+  </nav>
 
-  <p>You decide to go out with your friends while out partying you get attacked by some demons</p>
+  <br>
+  <p class="StoryText">You decide to go out with your friends while out partying you get attacked by some demons</p>
+  <br>
 
   <div class="row">
-    <div class="col">
-      <a href="/Pages/page6.html">Fight</a>
+    <div class="col-4" >
+      <div class="card" style="width: 18rem;">
+        <img src="https://static.thenounproject.com/png/2333015-200.png" class="card-img-top" alt="...">
+        <h5 class="card-title">Fight</h5>
+        <p class="card-text">Decide to fight?</p>
+        <div class="SelectBtn">
+          <a href="./page6.html" class="btn btn-dark">Select</a>
+        </div>
+      </div>
     </div>
-    <div class="col">
-      <a href="/Pages/page7.html">Run</a>
+    <div class="col-4">
+      <a class="btn btn-dark" href="./page7.html" role="button">Run</a>
     </div>
   </div>
 </body>
